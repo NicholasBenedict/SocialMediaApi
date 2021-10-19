@@ -13,6 +13,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
+using SocialMediaApi.Data;
 using SocialMediaApi.Models;
 using SocialMediaApi.Providers;
 using SocialMediaApi.Results;

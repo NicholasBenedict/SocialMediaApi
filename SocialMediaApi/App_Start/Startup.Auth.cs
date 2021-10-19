@@ -10,6 +10,7 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using SocialMediaApi.Providers;
 using SocialMediaApi.Models;
+using SocialMediaApi.Data;
 
 namespace SocialMediaApi
 {

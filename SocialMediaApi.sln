@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialMediaApi", "SocialMediaApi\SocialMediaApi.csproj", "{4D381831-A9C1-4A6E-9620-BCC6A2200A33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialMediaApi.Data", "SocialMediaApi.Data\SocialMediaApi.Data.csproj", "{05E9A449-E462-4EF8-BD5A-2FA17CF8AF3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialMediaApi.Models", "SocialMediaApi.Models\SocialMediaApi.Models.csproj", "{899B9A15-7616-421B-84E0-3B3976A5FCCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialMediaApiServices", "SocialMediaApiServices\SocialMediaApiServices.csproj", "{06E45B95-F30A-4835-B901-8A6B5B77EF1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{4D381831-A9C1-4A6E-9620-BCC6A2200A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D381831-A9C1-4A6E-9620-BCC6A2200A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D381831-A9C1-4A6E-9620-BCC6A2200A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E9A449-E462-4EF8-BD5A-2FA17CF8AF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E9A449-E462-4EF8-BD5A-2FA17CF8AF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E9A449-E462-4EF8-BD5A-2FA17CF8AF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E9A449-E462-4EF8-BD5A-2FA17CF8AF3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{899B9A15-7616-421B-84E0-3B3976A5FCCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899B9A15-7616-421B-84E0-3B3976A5FCCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899B9A15-7616-421B-84E0-3B3976A5FCCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899B9A15-7616-421B-84E0-3B3976A5FCCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E45B95-F30A-4835-B901-8A6B5B77EF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E45B95-F30A-4835-B901-8A6B5B77EF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E45B95-F30A-4835-B901-8A6B5B77EF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E45B95-F30A-4835-B901-8A6B5B77EF1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
