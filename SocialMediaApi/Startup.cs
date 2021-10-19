@@ -12,6 +12,7 @@ namespace SocialMediaApi
     {
         public void Configuration(IAppBuilder app)
         {
+            //Start of the application
             ConfigureAuth(app); 
         }
     }
