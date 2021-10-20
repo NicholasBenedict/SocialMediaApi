@@ -10,6 +10,7 @@ using Microsoft.AspNet.Identity;
 
 namespace SocialMediaApi.Controllers
 {
+    [Authorize]
     public class PostController : ApiController
     {
         private PostService CreatePostService()
@@ -38,12 +39,12 @@ namespace SocialMediaApi.Controllers
         }
 
         //Get Method by Id
-        public IHttpActionResult Get(Guid authorId)
-        {
-            PostService postService = CreatePostService();
-            var post = postService.GetPostByAuthorId(authorId);
-            return Ok(post);
-        }
+        //public IHttpActionResult Get(int Id)
+        //{
+        //    PostService postService = CreatePostService();
+        //    var post = postService.GetPostByAuthorId(authorId);
+        //    return Ok(post);
+        //}
 
         public IHttpActionResult Put(PostEdit post)
         {

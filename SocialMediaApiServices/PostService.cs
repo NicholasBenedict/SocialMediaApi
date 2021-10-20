@@ -21,7 +21,8 @@ namespace SocialMediaApiServices
         {
             var entity = new Post()
              {
-                 Text = model.Texts,
+                AuthorId = _authorId,
+                Text = model.Texts,
                  Comments = model.Comments,
                  Title = model.Title
 
@@ -38,12 +39,15 @@ namespace SocialMediaApiServices
         {
             using (var ctx = new ApplicationDbContext())
             {
-                var query = ctx
+                var query = 
+                    ctx
                     .Posts
                     .Where(e => e.AuthorId == _authorId)
-                    .Select(e =>
+                    .Select(
+                        e =>
                     new PostListItem
                     {
+                        Id = e.Id,
                         Title = e.Title,
                         Text = e.Text,
                         Comments = e.Comments
