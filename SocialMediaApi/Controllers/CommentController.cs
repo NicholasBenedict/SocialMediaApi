@@ -58,7 +58,7 @@ namespace SocialMediaApi.Controllers
             return Ok();
         }
 
-        public CommentService CreateCommentService()
+        private CommentService CreateCommentService()
         {
             var userId = Guid.Parse(User.Identity.GetUserId());
             var commentService = new CommentService(userId);

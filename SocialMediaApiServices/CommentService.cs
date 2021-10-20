@@ -27,7 +27,7 @@ namespace SocialMediaApiServices
 
             using (var ctx = new ApplicationDbContext())
             {
-                ctx.Comments.Add(entity);
+                //ctx.Comments.Add(entity);
                 return ctx.SaveChanges() == 1;
             }
         }

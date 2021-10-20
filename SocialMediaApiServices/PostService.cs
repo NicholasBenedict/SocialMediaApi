@@ -34,7 +34,7 @@ namespace SocialMediaApiServices
             }
         }
 
-        public IEnumerable<PostListItem> GetPosts()
+/*        public IEnumerable<PostListItem> GetPosts()
         {
             var query = ctx
                 .Posts
@@ -44,6 +44,6 @@ namespace SocialMediaApiServices
                     Title = e.Title,
                     Text = e.Text
                     ) 
-        }
+        }*/
     }
 }
