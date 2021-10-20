@@ -10,7 +10,7 @@ namespace SocialMediaApi.Models
    public class PostCreate
     {
         [Required]
-        [MinLength(2, ErrorMessage = "Please enter at least 2 characters.")]
+        [MinLength(2, ErrorMessage = "Please enter at least 2 characters.")] 
         [MaxLength(100, ErrorMessage = "There are too many characters.")]
         public string Title { get; set; }
         [MaxLength(8000)]
