@@ -16,11 +16,11 @@ namespace SocialMediaApi.Data
         public string Text { get; set; }
         public Guid AuthorId { get; set; }
 
+        public virtual Post Post { get; set; }
         [ForeignKey(nameof(Post))]
         public int PostId { get; set; }
-        public virtual Post Post { get; set; }
 
-        public virtual Reply Replies { get; set; }
+        public virtual List<Reply> Replies { get; set; }
 
     }
 }

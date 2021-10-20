@@ -11,6 +11,6 @@ namespace SocialMediaApi.Models
     {
         public int Id { get; set; }
         public string Text { get; set; }
-        public virtual Reply Replies { get; set; }
+        public virtual List<Reply> Replies { get; set; }
     }
 }
