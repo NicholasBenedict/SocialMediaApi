@@ -14,15 +14,15 @@ namespace SocialMediaApi.Controllers
     {
         private PostService CreatePostService()
         {
-            var authorId=Guid.Parse(User.Identity.GetUserId());
+            var authorId = Guid.Parse(User.Identity.GetUserId());
             var postService = new PostService(authorId);
             return postService;
         }
         public IHttpActionResult Get()
         {
             PostService postService = CreatePostService();
-            var post = postService.GetPosts();
-            return Ok(post);
+            var posts = postService.GetPosts();
+            return Ok(posts);
         }
         public IHttpActionResult Post(PostCreate post)
         {

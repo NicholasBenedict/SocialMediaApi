@@ -34,7 +34,7 @@ namespace SocialMediaApiServices
             }
         }
 
-/*        public IEnumerable<PostListItem> GetPosts()
+        public IEnumerable<PostListItem> GetPosts()
         {
             using (var ctx = new ApplicationDbContext())
             {
@@ -104,15 +104,7 @@ namespace SocialMediaApiServices
 
             }
         }
-            var query = ctx
-                .Posts
-                .Select(e =>
-                new PostListItem
-                {
-                    Title = e.Title,
-                    Text = e.Text
-                    ) 
-        }*/
+            
     }
 
 }

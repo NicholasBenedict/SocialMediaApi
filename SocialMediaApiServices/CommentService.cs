@@ -23,6 +23,7 @@ namespace SocialMediaApiServices
             {
                 AuthorId = _userId,
                 Text = model.Text,
+                PostId = model.PostId
             };
 
             using (var ctx = new ApplicationDbContext())
