@@ -11,7 +11,7 @@ namespace SocialMediaApi.Models
     {
         public string Title { get; set; }
         public string Text { get; set; }
-        public virtual Comment Comments { get; set; }
+        public virtual List<Comment> Comments { get; set; }
         public Guid AuthorId { get; set; }
     }
 }
