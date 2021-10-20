@@ -55,11 +55,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PostCreate.cs" />
+    <Compile Include="CommentCreate.cs" />
+    <Compile Include="CommentEdit.cs" />
+    <Compile Include="CommentListItem.cs" />
+    <Compile Include="CommentDetails.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SocialMediaApi.Data\SocialMediaApi.Data.csproj">
+      <Project>{05E9A449-E462-4EF8-BD5A-2FA17CF8AF3E}</Project>
+      <Name>SocialMediaApi.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
