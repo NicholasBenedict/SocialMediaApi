@@ -19,5 +19,8 @@ namespace SocialMediaApi.Data
       /*    public virtual Like Likes { get; set; }*/
         public Guid AuthorId { get; set; }
 
+        //DO POST CONTROLLER
+        //SERVICES
+        //MODELS
     }
 }
