@@ -18,5 +18,7 @@ namespace SocialMediaApi.Data
         public virtual Comment Comment { get; set; }
         public string Text { get; set; }
         public Guid AuthorId { get; set; }
-    }
+        public DateTimeOffset CreatedUtc { get; set; }
+        public DateTimeOffset? ModiefiedUtc { get; set; }
+}
 }
