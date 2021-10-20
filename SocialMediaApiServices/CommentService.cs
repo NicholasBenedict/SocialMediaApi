@@ -59,7 +59,7 @@ namespace SocialMediaApiServices
             }
         }
 
-        public bool UpdateNote(CommentEdit model)
+        public bool UpdateComment(CommentEdit model)
         {
             using(var ctx = new ApplicationDbContext())
             {
