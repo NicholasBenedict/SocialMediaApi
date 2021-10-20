@@ -24,7 +24,7 @@ namespace SocialMediaApiServices
                     AuthorId = _userId,
                     Text = model.Text,
                     CreatedUtc = DateTimeOffset.Now,
-                    //CommentId = model.CommentId
+                    
                 };
             using (var ctx = new ApplicationDbContext())
             {

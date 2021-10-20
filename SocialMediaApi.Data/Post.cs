@@ -14,7 +14,7 @@ namespace SocialMediaApi.Data
         public string Title { get; set; }
         public string Text { get; set; }
         //Virtual list of comments
-        public virtual Comment Comments { get; set; }
+        public virtual List<Comment> Comments { get; set; }
         //Virtual list of likes - if applicable 
       /*    public virtual Like Likes { get; set; }*/
         public Guid AuthorId { get; set; }

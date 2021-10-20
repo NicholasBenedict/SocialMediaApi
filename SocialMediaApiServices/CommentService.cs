@@ -27,7 +27,7 @@ namespace SocialMediaApiServices
 
             using (var ctx = new ApplicationDbContext())
             {
-                //ctx.Comments.Add(entity);
+                ctx.Comments.Add(entity);
                 return ctx.SaveChanges() == 1;
             }
         }
@@ -53,8 +53,7 @@ namespace SocialMediaApiServices
                     new CommentDetails
                     {
                         Id = entity.Id,
-                        Text = entity.Text,
-                        Replies = entity.Replies
+                        Text = entity.Text
                     };
             }
         }
