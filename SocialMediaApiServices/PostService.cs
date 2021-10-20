@@ -43,7 +43,7 @@ namespace SocialMediaApiServices
                 {
                     Title = e.Title,
                     Text = e.Text
-                    )
+                    ) 
         }
     }
 }
